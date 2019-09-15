@@ -1,0 +1,26 @@
+
+.board .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.27);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+    margin-top: 20px;
+
+}
+.board  img {
+    height: 250px;
+}
+.title {
+  color: grey;
+  font-size: 20px;
+}
+.board h1 {
+    font-size: 20px;
+    font-weight: bold
+}
+.board h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 34px
+}
