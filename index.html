@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Infinity</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="one">
+
+        </section>
+<!-- End navbar -->
+<!--start pic section-->
+<h1 class="ml5" id="Home">
+  <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters letters-left">Welcome</span>
+    <span class="letters ampersand">To</span>
+    <span class="letters letters-right">Infinity</span>
+    <span class="line line2"></span>
+  </span>
+    <p><q>ASPIRE TO INSPIRE</q></p>
+
+</h1>   
+<!--end pic section-->
+<!--start about-->
+    <section class="about" id="About">
+        <div class="container">
+        <h1 data-wow-delay=".25s" data-wow-duration="1s" class="">WHO WE <span>ARE</span> </h1>
+        <p class="">Infinity club is not a usual club we takes  your passion our first  concern , knowing it and develop your talent whatever it was , there is no bonds between us we are one big family.</p>
+            <p>In infinity you will find what you need and suit your abilities Cause we have 5 different teams &amp; Infinity Club is about 3 sections</p> <p><b>Charity</b>: we do Charity events with charitable organizations</p>   
+            <p><b>Entertainment</b>: we  are trying to   remove any stress with the students by making entertainment events in side our college or outside it</p>
+            <p><b>Sessions</b>: there are professional and talented students with Infinity are ready to teach several kind of sessions such as “ web design , Photoshop , designing , Photography ,etc</p>
+        </div>
+    </section>
+    <section class="ab" >
+                <div class="te">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                    <div class="card" style="">
+                      <h1 id="vision">Marketing  <span>Team</span></h1>
+                      <p>which represent infinity inside the university and its activities  and responsible for our look in front of the people</p>
+                    </div>
+                    </div>
+                <div class="col-md-4 col-xs-6">
+                <div class="card" style="">
+                  <h1>Media  <span>Team</span></h1>
+                  <p> is responsible for bringing every event in its great shape and present it to public using professional PHs and montiers</p>
+                </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                <div class="card" style="">
+                  <h1>PR <span>Team</span></h1>
+                  <p>which is responsible of dealing with out side sponsors and getting great deals which will affect in a good way to our event</p>
+                </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                <div class="card" style="">
+                  <h1>Logistics <span>Team</span></h1>
+                  <p>is responsible for creating and  organizing every step in the event from beginning till the end </p>
+                </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                <div class="card" style="">
+                  <h1>HR <span>Team</span></h1>
+                  <p> which responsible of supervising all of the teams and rewarding good members or punishing those who are not and minimizing the weakness and maximizing strength points</p>
+                </div>
+                </div>
+                    </div>
+            </div>
+            </div>
+    </section>
+<!--end about-->
+<!--start apply-->
+<section class="apply" id="apply">
+    <h1 class="text-center">To Apply with us please click here <i class='fas fa-angle-double-down' style='font-size:36px'></i></h1>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScCHRvFtNX0Kv2mgFaqkoCVvDUpnVEfTywG-2GvdsOZ-iLzwg/viewform?usp=sf_link" type="button" class="wow fadeIn" target="_blank">Apply Now</a>
+</section>
+<!--end apply-->
+<!-- Start Footer -->
+<footer class="f">
+    
+</footer>
+
+<!-- End Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript"> new WOW().init();</script>
+    <script>
+    $(function(){
+  $(".one").load("nav.html");
+  $(".f").load("footer.html");
+});
+anime.timeline()
+  .add({
+    targets: '.ml5 .line',
+    opacity: [0.5,1],
+    scaleX: [0, 1],
+    easing: "easeInOutExpo",
+    duration: 700
+  }).add({
+    targets: '.ml5 .line',
+    duration: 600,
+    easing: "easeOutExpo",
+    translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+  }).add({
+    targets: '.ml5 .ampersand',
+    opacity: [0,1],
+    scaleY: [0.5, 1],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  }).add({
+    targets: '.ml5 .letters-left',
+    opacity: [0,1],
+    translateX: ["0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=300'
+  })
+    .add({
+    targets: '.ml5 .letters-right',
+    opacity: [0,1],
+    translateX: ["-0.5em", 0],
+    easing: "easeOutExpo",
+    duration: 600,
+    offset: '-=600'
+  })
+//    .add({
+//    targets: '.ml5',
+//    opacity: 0,
+//    duration: 1000,
+//    easing: "easeOutExpo",
+//    delay: 1000
+//  });
+        
+    </script>
+</body>
